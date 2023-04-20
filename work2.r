@@ -3,6 +3,7 @@ library(adabag)
 
 data(Glass)
 
+
 set.seed(333)
 train <- sample(nrow(Glass), 0.7 * nrow(Glass))
 train_data <- Glass[train, ]
