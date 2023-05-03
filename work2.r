@@ -23,3 +23,4 @@ for(n in n_trees){
 # Draw Test error as a function of Number of trees
 plot(n_trees, sapply(error_list, unlist), type = "b", xlab = "Number of trees", ylab = "Test error")
 title("Glass")
+

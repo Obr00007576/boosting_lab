@@ -9,7 +9,7 @@ train_data <- Vehicle[train, ]
 test_data <- Vehicle[-train, ]
 
 # Train an AdaBoost.M1 model with adabag
-n_trees <- seq(1, 301, by = 10)
+n_trees <- seq(1, 10, by = 1)
 
 error_list <- list()
 for(n in n_trees){
@@ -21,4 +21,3 @@ for(n in n_trees){
 
 # Draw Test error as a function of Number of trees
 plot(n_trees, sapply(error_list, unlist), type = "b", xlab = "Number of trees", ylab = "Test error")
-title("Vehicle")
