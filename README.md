@@ -55,7 +55,7 @@ The weights of models are as followed:
 0.4
 ```
 
-Weights of models:
+Error rate for each model:
 ```
 [0.61538464 0.63076925 0.63076925 0.63076925 0.63076925 0.63076925
  0.63076925 0.63076925 0.6        0.6       ]
